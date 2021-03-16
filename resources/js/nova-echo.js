@@ -10,7 +10,8 @@ let echoOptions = {
             authHost: window.location.origin
         }
 
-    }
+    },
+    transports: ["polling"]
 }
 
 if (document.head.querySelector('meta[name="host"]') !== null) {
